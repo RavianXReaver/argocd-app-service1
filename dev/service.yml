@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: backend1
 spec:
-  type: LoadBalancer
   selector:
     app: backend1
   ports:
