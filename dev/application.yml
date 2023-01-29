@@ -18,6 +18,9 @@ spec:
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
+    managedNamespaceMetadata:
+      labels: 
+        istio-injection: enabled
 
     automated: 
       selfHeal: true
